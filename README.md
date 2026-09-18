@@ -1,145 +1,61 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Ad_Innovation_Personal — personal advertising research notebook by Rami M. Elsawah" width="100%">
+  <img src="./assets/hero.svg" alt="Advertising Systems Research — independent research by Rami M. Elsawah" width="100%">
 </p>
 
-# Ad_Innovation_Personal
+# Advertising Systems Research
 
-This is where I think out loud about advertising systems.
+**Independent research into how advertising systems value opportunities, combine intelligence, delegate authority, and earn user trust.**
 
-Not a roadmap. Not a catalog of finished products. More like the corner of a whiteboard that never gets erased: questions that keep bothering me, patterns that may matter, and ideas worth trying to falsify.
+By **Rami M. Elsawah**
 
-I am especially interested in problems that seem likely to survive the next wave of AI, better identity, faster infrastructure, and another round of industry consolidation.
+This repository examines structural problems in advertising: what a decision should account for, who should be allowed to make it, and what evidence would show that it improved an outcome.
 
-## Questions I keep coming back to
+The working premise is that better models alone may not resolve weaknesses in how decisions are framed, coordinated, and governed. Each research direction below turns that premise into a hypothesis that can be challenged.
 
-### What if a bidder remembered?
+## Research portfolio
 
-Advertising still makes an enormous number of decisions one opportunity at a time.
+| Research direction | Core question | Intended value |
+| --- | --- | --- |
+| [Experience Bidding](research/experience-bidding.md) | What can the next advertising action add, given what has already happened? | Allocate spend according to incremental contribution across a journey. |
+| [OpenDecisioning](research/open-decisioning.md) | Can independent parties contribute useful intelligence without centralizing their underlying data and models? | Make specialized intelligence usable across organizational boundaries. |
+| [Agentic Advertising Operating System](research/agentic-advertising-operating-system.md) | Under what authority may an advertising agent act, and how can that action be explained or stopped? | Make autonomous execution accountable and bounded. |
+| [AI-Native Commercial Surfaces](research/ai-native-commercial-surfaces.md) | How can commercial options enter an AI conversation without compromising its usefulness? | Support commercial discovery while preserving trust in the assistant's reasoning. |
 
-But what if the economically important question is not simply:
+**Public status: exploratory hypotheses.** This repository contains research briefs and proposed evaluation criteria. It does not currently publish implementation code, reproducible experiments, or empirical validation. Intended value is a research objective, not a demonstrated result.
 
-> **What is this impression worth?**
+## Start here
 
-What if it is:
+- **For product and business readers:** choose a brief above. Start with the problem, intended value, and illustrative scenario.
+- **For researchers and engineers:** examine the assumptions, proposed evaluation, and evidence that would weaken each hypothesis.
+- **For collaborators:** read the [research method](docs/research-method.md) and [contribution guide](CONTRIBUTING.md). Counterexamples and relevant prior work are especially useful.
 
-> **Given what advertising has already accomplished, what can the next action still add?**
+## Principles under investigation
 
-That line of thinking became **Experience Bidding**.
+**Incremental value.** Eligibility is not evidence of relevance; relevance is not evidence of additional value. A useful decision framework should be able to consider abstention.
 
-The interesting part is not “sequence more ads.” It is whether a bidder can develop useful economic memory across a journey while still operating through ordinary auction rails.
+**Intelligence across boundaries.** A conclusion may be useful even when its underlying data or model cannot be shared. Whether that conclusion is reliable, safe to disclose, and economical to use still needs to be established.
 
-And then the uncomfortable questions start:
+**Explicit authority.** Autonomous action needs a defined objective, constraints, an accountable owner, and a way to revoke permission.
 
-- When is prior progress real enough to affect a bid?
-- When should the system deliberately do nothing?
-- Does journey awareness actually improve outcomes, or just create a more complicated bidder?
-- If it works, how much of impression-by-impression valuation starts to look like a historical artifact?
+**Trust as a design constraint.** Commercial participation should be evaluated against the usefulness and integrity of the customer experience, alongside economic outcomes.
 
----
+## How the directions relate
 
-### Does the open internet have a transaction problem, or a thinking problem?
+These are distinct questions that may inform one another:
 
-The open internet is already quite good at moving transactions between independent companies.
+| Decision layer | Research direction | Main concern |
+| --- | --- | --- |
+| Valuation | Experience Bidding | Whether the next action adds value |
+| Coordination | OpenDecisioning | How independent intelligence contributes |
+| Authority | Agentic Advertising Operating System | Whether an action is permitted and accountable |
+| Experience | AI-Native Commercial Surfaces | How commercial participation affects the user |
 
-What it is less obviously good at is allowing several independent sources of intelligence to contribute to the same decision without one company having to own all the data, models, and learning.
+This is a research map, not a claim that a unified platform has been built.
 
-That question became **OpenDecisioning**.
+## Contribute a substantive challenge
 
-Suppose a publisher knows something unusually well about its context. A retailer knows something about commerce. A buyer knows the advertiser's objective. A specialist model knows something narrow but valuable.
-
-Must all of that intelligence be centralized before it can matter?
-
-Or could the useful conclusion travel while the underlying data, model, and authority stay where they belong?
-
-The larger question I am exploring is whether the open internet eventually needs **decision interoperability**, not merely transaction interoperability.
-
----
-
-### When an agent spends money, who exactly made the decision?
-
-We are rapidly getting better at building agents that can plan, negotiate, activate, optimize, and transact.
-
-That makes me less interested in whether an advertising agent *can* act and more interested in what happens when it does.
-
-Who gave it authority?
-
-What was it allowed to optimize?
-
-Which constraints were inherited from the advertiser, publisher, platform, regulator, or user?
-
-What happens when two agents represent parties whose objectives conflict?
-
-Who can explain the decision afterward?
-
-Who can stop it?
-
-That cluster of questions sits behind a working idea I call the **Agentic Advertising Operating System**.
-
-My suspicion is that the hard part of agentic advertising will not be intelligence for very long. It will be **authority, accountability, and durable evidence of why an autonomous action was allowed to happen**.
+The most useful feedback identifies an existing solution, exposes a failed assumption, or proposes a simpler test. [Open a research discussion as an issue](https://github.com/yoda-sahb/Ad_Innovation_Personal/issues/new?template=research-feedback.md), or propose a focused documentation change.
 
 ---
 
-### What happens when the answer itself becomes a commercial surface?
-
-Search put ads next to answers.
-
-Conversational AI creates a stranger possibility: the system helping you reason may also be the place where commercial discovery occurs.
-
-That creates questions I do not think conventional ad placement fully answers.
-
-When is a sponsored option genuinely useful?
-
-Can the assistant infer commercial intent without turning a private conversation into advertiser data?
-
-Can payment influence which commercial option is shown without influencing the underlying organic answer?
-
-Who is responsible for product truth, price, availability, suitability, returns, or a bad recommendation?
-
-That line of inquiry became **AI-Native Commercial Surfaces**.
-
-The problem is not “where do we put an ad in a chatbot?” The more interesting problem is how commercial participation enters a decision process **without corrupting the reasoning process that made the assistant useful in the first place**.
-
----
-
-## A few related thought experiments
-
-Some questions are smaller. Some may turn out to be dead ends.
-
-**What if abstention were a first-class advertising decision?**  
-Most systems are designed to choose among eligible actions. But `eligible ≠ relevant ≠ valuable`. Sometimes the intelligent action may be to spend nothing *here* and reallocate elsewhere.
-
-**What if the best advertising signal cannot leave its owner?**  
-Could useful intelligence travel as a bounded conclusion rather than as raw identity, data, or a model?
-
-**What if the unit of optimization is eventually larger than an impression?**  
-As models get better at reasoning across time, channels, and outcomes, does the auction remain the natural place to express value, or merely the place where execution happens?
-
-**What if autonomous advertising creates a new kind of market participant?**  
-At what point does an agent need something closer to a mandate, rights, obligations, receipts, and revocation than a set of API permissions?
-
-**What if better monetization sometimes means fewer ads?**  
-If a system understands marginal value and customer burden well enough, increasing intelligence could make restraint economically rational rather than merely a CX concession.
-
-## The common thread
-
-I tend to start with the same questions:
-
-> What is the visible symptom?
->
-> What is the structural problem underneath it?
->
-> Is the industry solving it at the wrong layer?
->
-> Which assumptions are fundamental, and which are just inherited from today's architecture?
->
-> What would have to be true for a different system to work?
->
-> And what evidence would make me abandon the idea?
-
-Some of these hypotheses will survive. Others should fail.
-
-That is the point.
-
----
-
-<sub>Personal, independent, company-agnostic R&D. These are public working questions and hypotheses, not employer roadmaps or claims that the systems described here have been deployed. Detailed mechanisms, prototypes, prior-art work, and restricted implementation details remain private.</sub>
+Personal, independent, company-agnostic research. The material does not represent employer plans or claim deployed capabilities. Detailed mechanisms, prototypes, prior-art work, and restricted implementation details remain private.
