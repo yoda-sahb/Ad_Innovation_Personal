@@ -1,24 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
-  <title id="title">Ad_Innovation_Personal</title>
-  <desc id="desc">A personal advertising research notebook by Rami M. Elsawah, organized around open questions and possibilities.</desc>
-
-  <rect width="1200" height="500" rx="28" fill="#0d1117"/>
-  <path d="M0 392 C190 360 300 445 470 404 C620 368 730 332 900 376 C1030 408 1110 392 1200 350 L1200 500 L0 500 Z" fill="#10161d"/>
-
-  <text x="72" y="76" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="18" font-weight="700" letter-spacing="2">AD_INNOVATION_PERSONAL</text>
-  <text x="72" y="145" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="48" font-weight="700">Questions I keep coming back to</text>
-  <text x="72" y="191" fill="#c9d1d9" font-family="Georgia,Times New Roman,serif" font-size="24" font-style="italic">A personal notebook on advertising systems, strange possibilities, and ideas worth trying to disprove.</text>
-
-  <line x1="72" y1="232" x2="1128" y2="232" stroke="#30363d" stroke-width="2"/>
-
-  <text x="90" y="286" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="22">What if a bidder remembered?</text>
-  <text x="650" y="286" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="22">Who owns the right to decide?</text>
-
-  <text x="90" y="337" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="22">Can intelligence travel without the data?</text>
-  <text x="650" y="337" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="22">What if doing nothing is the best ad decision?</text>
-
-  <text x="90" y="388" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="22">When does an agent become a market participant?</text>
-  <text x="650" y="388" fill="#f0f6fc" font-family="Georgia,Times New Roman,serif" font-size="22">What happens when the answer becomes the ad surface?</text>
-
-  <text x="72" y="463" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16">RAMI M. ELSAWAH · PERSONAL / INDEPENDENT / COMPANY-AGNOSTIC R&amp;D</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Advertising Systems Research</title>
+  <desc id="desc">Independent research by Rami M. Elsawah into valuation, coordination, authority, and customer experience.</desc>
+  <rect width="1200" height="320" rx="16" fill="#101923"/>
+  <rect x="48" y="48" width="5" height="160" fill="#64d8cb"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="76" y="70" fill="#64d8cb" font-size="16" font-weight="700" letter-spacing="2">INDEPENDENT RESEARCH</text>
+    <text x="76" y="133" fill="#f3f6fa" font-size="48" font-weight="700">Advertising Systems Research</text>
+    <text x="76" y="177" fill="#c4ceda" font-size="23">Better decisions. Explicit authority. Useful commercial experiences.</text>
+    <line x1="76" y1="216" x2="1124" y2="216" stroke="#354555"/>
+    <text x="76" y="258" fill="#f3f6fa" font-size="18">RAMI M. ELSAWAH</text>
+    <text x="1124" y="258" fill="#aabacb" font-size="16" text-anchor="end">VALUATION / COORDINATION / AUTHORITY / EXPERIENCE</text>
+  </g>
 </svg>
