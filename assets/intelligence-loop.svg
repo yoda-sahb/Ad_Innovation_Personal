@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320" role="img" aria-labelledby="title desc">
+  <title id="title">Reusable intelligence loop</title>
+  <desc id="desc">Signals flow through telemetry, intelligence, strategy, action, outcome and learning, with learning feeding the next cycle.</desc>
+  <rect width="1400" height="320" rx="28" fill="#0b1020"/>
+  <text x="70" y="65" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Reusable intelligence loop</text>
+  <text x="70" y="102" fill="#b8c1d9" font-family="Arial, Helvetica, sans-serif" font-size="18">The signal is only the input. Value comes from connecting it to a strategy, an action, an outcome, and the next decision.</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="middle">
+    <g><rect x="70" y="155" width="150" height="70" rx="14" fill="#18223a" stroke="#64748b"/><text x="145" y="197" fill="#ffffff">Signals</text></g>
+    <g><rect x="255" y="155" width="150" height="70" rx="14" fill="#18223a" stroke="#64748b"/><text x="330" y="197" fill="#ffffff">Telemetry</text></g>
+    <g><rect x="440" y="155" width="150" height="70" rx="14" fill="#18223a" stroke="#64748b"/><text x="515" y="197" fill="#ffffff">Intelligence</text></g>
+    <g><rect x="625" y="145" width="150" height="90" rx="14" fill="#24324f" stroke="#d1d5db" stroke-width="2"/><text x="700" y="190" fill="#ffffff">Strategy</text><text x="700" y="216" fill="#b8c1d9" font-size="13" font-weight="400">objective + context</text></g>
+    <g><rect x="810" y="155" width="150" height="70" rx="14" fill="#18223a" stroke="#64748b"/><text x="885" y="197" fill="#ffffff">Action</text></g>
+    <g><rect x="995" y="155" width="150" height="70" rx="14" fill="#18223a" stroke="#64748b"/><text x="1070" y="197" fill="#ffffff">Outcome</text></g>
+    <g><rect x="1180" y="155" width="150" height="70" rx="14" fill="#18223a" stroke="#64748b"/><text x="1255" y="197" fill="#ffffff">Learning</text></g>
+  </g>
+  <g stroke="#94a3b8" stroke-width="3" fill="none">
+    <path d="M220 190 H245"/><path d="M405 190 H430"/><path d="M590 190 H615"/><path d="M775 190 H800"/><path d="M960 190 H985"/><path d="M1145 190 H1170"/><path d="M1255 230 C1255 285 145 285 145 235"/>
+  </g>
+  <g fill="#94a3b8">
+    <polygon points="245,190 235,184 235,196"/><polygon points="430,190 420,184 420,196"/><polygon points="615,190 605,184 605,196"/><polygon points="800,190 790,184 790,196"/><polygon points="985,190 975,184 975,196"/><polygon points="1170,190 1160,184 1160,196"/><polygon points="145,235 139,245 151,245"/>
+  </g>
+  <text x="700" y="288" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">Learning updates context and strategy for the next cycle</text>
+</svg>
