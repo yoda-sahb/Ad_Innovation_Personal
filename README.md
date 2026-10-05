@@ -10,6 +10,14 @@ Not a roadmap. Not a catalog of finished products. More like the corner of a whi
 
 I am especially interested in problems that seem likely to survive the next wave of AI, better identity, faster infrastructure, and another round of industry consolidation.
 
+## Working papers
+
+### [First-Party Intelligence for Advertising](./whitepapers/first-party-intelligence-for-advertising.md)
+
+A company-agnostic framework for turning unique first-party knowledge into measurable advertising decision intelligence.
+
+> **Signals → Telemetry → Intelligence → Strategy → Action → Outcome → Learning**
+
 ## Questions I keep coming back to
 
 ### What if a bidder remembered?
